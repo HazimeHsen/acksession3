@@ -1,5 +1,5 @@
 "use client";
-import useAnimationHook from "@/app/hooks/useAnimation";
+import useAnimationHook from "@/app/hooks/useAnimation.js";
 import Image from "next/image";
 import React from "react";
 import {

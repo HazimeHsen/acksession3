@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import Heading from "../Heading";
-import useAnimationHook from "@/app/hooks/useAnimation";
+import useAnimationHook from "@/app/hooks/useAnimation.js";
 import { motion } from "framer-motion";
 const Capabilities = ({ capabilities }) => {
   return (

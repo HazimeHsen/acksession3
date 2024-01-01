@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import Image from "next/image";
-import useAnimationHook from "@/app/hooks/useAnimation";
+import useAnimationHook from "@/app/hooks/useAnimation.js";
 
 const Card = ({ info }) => {
   const { controls, ref } = useAnimationHook();

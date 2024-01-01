@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { FaBars, FaTimes, FaAngleDown } from "react-icons/fa";
-import useAnimationHook from "@/app/hooks/useAnimation";
+import useAnimationHook from "@/app/hooks/useAnimation.js";
 import { motion, useAnimation, useInView } from "framer-motion";
 const Navbar = () => {
   const [showSidebar, setShowSidebar] = useState(false);

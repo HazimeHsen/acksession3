@@ -2,7 +2,7 @@
 import React from "react";
 import Card from "../NumberIncrement";
 import { motion } from "framer-motion";
-import useAnimationHook from "@/app/hooks/useAnimation";
+import useAnimationHook from "@/app/hooks/useAnimation.js";
 const data = [
   {
     id: 1,

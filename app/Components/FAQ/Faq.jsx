@@ -1,5 +1,5 @@
 "use client";
-import useAnimationHook from "@/app/hooks/useAnimation";
+import useAnimationHook from "@/app/hooks/useAnimation.js";
 import React, { useState } from "react";
 import Heading from "../Heading";
 import { motion } from "framer-motion";

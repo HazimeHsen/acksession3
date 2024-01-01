@@ -2,7 +2,7 @@
 import React from "react";
 import Carousel from "../Carousel";
 import Image from "next/image";
-import useAnimationHook from "@/app/hooks/useAnimation";
+import useAnimationHook from "@/app/hooks/useAnimation.js";
 import { motion } from "framer-motion";
 const Works = ({ work }) => {
   const { controls: controls1, ref: ref1 } = useAnimationHook();

@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import Image from "next/image";
 import Card from "./Card";
-import useAnimationHook from "@/app/hooks/useAnimation";
+import useAnimationHook from "@/app/hooks/useAnimation.js";
 const WhatWeDo = () => {
   const data = [
     {
